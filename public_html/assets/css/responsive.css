@@ -1,0 +1,560 @@
+/* == RESPONSIVE CSS == */
+
+:root {
+  --primary-color: #0a8cda;
+  --black-color: #000000;
+  --grey-color: #898989;
+  --white-color: #ffffff;
+}
+
+@media (max-width: 1399px) {
+  .header-social ul.socail-icon li img {
+    max-width: 18px;
+  }
+  .header-social .header-phone {
+    margin: 0px 0px 0px 14px;
+  }
+  .header-social .header-phone li a {
+    font-size: 12px;
+  }
+  .container {
+    max-width: 97%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .location-left {
+    max-width: 769px;
+    width: 100%;
+  }
+  .location-right {
+    max-width: 320px;
+    width: 100%;
+  }
+
+
+
+}
+@media (max-width: 1280px) {
+  .manCenterPart:before {
+    display: none;
+  }
+  .slide-logo {
+    display: none;
+  }
+}
+@media (max-width: 1270px) {
+  .location-header ul {
+    gap: 2px;
+    flex-wrap: wrap;
+  }
+  .location-header ul li a {
+    border-radius: 6px;
+    padding: 10px 14px;
+  }
+}
+@media (max-width: 1192px) {
+  .bannerSection center {
+    min-height: unset;
+  }
+  .hero-inner center img,
+  .bannerSection center img {
+    width: 100%;
+  }
+  .hero-inner center .slidershow,
+  .bannerSection center img.bannerImg {
+    position: absolute;
+    top: 15px;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0 28px 0 19px;
+  }
+  .photo-inner-list,
+  .videos-inner-list{
+    padding: 0px;
+    gap: 20px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .dropdown-theshow .dropdown-menu {
+    min-width: 840px;
+    border: 0px;
+    border-radius: 0px;
+    left: 10px;
+  }
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    --bs-dropdown-spacer: 0.125rem;
+  }
+  .dropdown-menu.show {
+    display: block;
+  }
+  .navbar-expand-lg .navbar-nav .dropdown-menu{
+    top: 53px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .home-video {
+    padding: 30px 30px 0px 30px;
+  }
+  .poster-img {
+    padding: 15px 30px 0px 0px;
+  }
+  .poster-content h2 {
+    font-size: 16px;
+    padding: 20px 0px 15px 0px;
+  }
+  .brand-logo {
+    padding: 0px 0px 0px 68px;
+  }
+  .header-social {
+    margin: 10px 8px 0px 0px;
+  }
+  .header-social .header-phone {
+    margin: 4px 0px 0px 10px;
+  }
+}
+@media (max-width: 1024px) {
+  /*.header-menu .navbar-nav > li{
+    padding: 17px 10px 12px 10px;
+  } */
+  .header-menu .navbar-nav li a{
+	font-size: 15.50px;
+  }
+
+}
+@media (max-width: 991px) {
+  .container {
+    max-width: 100%;
+  }
+  .photo-gallery h2,
+  .celebrate-box h3,
+  .bachelorette-title h3 {
+    font-size: 14px;
+  }
+  .celebrate-box img {
+    max-width: 74px;
+  }
+  .twitter-icons h3 {
+    font-size: 15px;
+  }
+
+  .poster-img img {
+    max-width: 200px;
+  }
+
+  /* == HEADER == */
+
+  .header-menu{
+    margin: 0px 0px 20px 0px;
+  }
+  .header-menu .navbar-brand {
+    display: block;
+  }
+  .brand-logo {
+    display: none;
+  }
+  .header-social {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .header-menu .navbar-nav {
+    max-width: 100%;
+    background-image: none;
+    background: var(--primary-color);
+    border-radius: 10px;
+    padding: 8px;
+    right: 0px;
+  }
+  .header-menu .navbar-nav > li {
+    padding: 5px 15px;
+  }
+  .header-menu .navbar-nav > li::before {
+    content: none;
+  }
+  .header-menu .navbar-nav li a {
+    color: var(--white-color);
+  }
+  .dropdown-tickets .dropdown-toggle,
+  .dropdown-theshow .dropdown-toggle {
+    display: block;
+    position: absolute;
+    top: 13px;
+    right: 20px;
+    color: var(--white-color);
+  }
+  .header-menu .navbar-nav li a {
+    text-shadow: none;
+  }
+  .dropdown-tickets .dropdown-menu,
+  .dropdown-theshow .dropdown-menu {
+    background: #3e3e3e;
+  }
+  .dropdown-theshow .megamenu-inner {
+    padding: 5px 14px;
+  }
+  .megamenu-inner .theshow-list {
+    max-width: 210px;
+    width: 100%;
+  }
+  .header-menu .navbar-nav li ul h3 a {
+    font-weight: 600;
+  }
+  .dropdown-theshow .megamenu-inner .location-list ul {
+    max-width: 150px;
+    width: 100%;
+  }
+  .top-header-inner {
+    padding: 0px 0px 20px 0px;
+  }
+  .top-header-inner .header-social {
+    margin: 10px 0px 0px 0px;
+  }
+  .header-social .header-phone {
+    margin: -2px 0px 0px 10px;
+  }
+  .header-social ul.socail-icon li img {
+    max-width: 20px;
+  }
+  .header-social .header-phone li a {
+    color: var(--white-color);
+    font-size: 14px;
+  }
+
+  /* == FOOTER == */
+  .footer .footer-inner .footer-menu ul {
+    gap: 8px;
+    padding: 0px 0px 0px 5px;
+  }
+  .footer-logo img {
+    max-width: 160px;
+  }
+  .footer .footer-inner .footer-menu ul li a {
+    font-size: 9px;
+  }
+  .footer .footer-inner .footer-social ul li img {
+    max-width: 16px;
+  }
+
+  /* == LOCATION == */
+  .youtube-title h3 {
+    font-size: 14px;
+  }
+  .slide-logo {
+    max-width: 70px;
+    display: none;
+  }
+  .hero-inner center .coverimg,
+  .bannerSection center img.coverimg {
+    margin-left: 0px;
+  }
+  .hero-inner center .slidershow,
+  .bannerSection center img.bannerImg {
+    top: 12px;
+    padding: 0 10px 0 27px;
+  }
+  .press-videos-list{
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .press-videos-list .grid-item .video-titlebar > img,
+  .videos-inner-list .grid-item .video-titlebar > img{
+    width: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+
+  .top-header-inner .header-social{
+    flex-flow: wrap;
+  }
+  .bannerSection .banner-menu ul li:last-child,
+  .hero-inner .slidershow .banner-menu ul li:last-child{
+    max-width: 200px;
+  }
+
+  .slide-logo {
+    max-width: 60px;
+  }
+  .header-menu .navbar-nav > li {
+    padding: 5px 10px;
+  }
+  .home-video {
+    padding: 20px 10px 0px 10px;
+  }
+  .video-box {
+    border: 7px solid #5bc4da;
+  }
+  .poster-section {
+    padding: 20px 0px 0px 0px;
+  }
+  .poster-img {
+    padding: 0px 0px 0px 0px;
+    float: none;
+  }
+  .poster-content h2 {
+    margin-bottom: 0px;
+  }
+  .poster-readmore {
+    text-align: left;
+  }
+  .twitter-widget,
+  .photo-gallery,
+  .fare-calendar,
+  .bachelorette-men {
+    margin: 10px auto;
+    max-width: 320px;
+    width: 100%;
+  }
+  .twitter-icons {
+    margin: 10px 0px 0px 0px;
+  }
+
+  .dropdown-theshow .dropdown-menu {
+    max-height: 400px;
+    overflow-y: scroll;
+  }
+  .dropdown-theshow .dropdown-menu::-webkit-scrollbar {
+    width: 8px;
+  }
+  .dropdown-theshow .dropdown-menu::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  .dropdown-theshow .dropdown-menu::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  .dropdown-theshow .dropdown-menu::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+  .location-left {
+    margin-bottom: 30px;
+  }
+  .location-right .sidebar-widget .youtube-box,
+  .location-right .sidebar-widget .photo-gallery,
+  .location-right .sidebar-widget .twitter-icons,
+  .location-right .sidebar-widget .twitter-widget,
+  .location-right .sidebar-widget .fare-calendar,
+  .location-right .sidebar-widget .bachelorette-men {
+    max-width: 320px;
+    margin: 0px auto 25px;
+  }
+
+  /* == FOOTER == */
+  .footer .footer-inner {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .footer .footer-inner .footer-menu {
+    flex-direction: column;
+  }
+  .footer .footer-inner .footer-menu ul {
+    gap: 0px 10px;
+    padding: 0px 10px;
+    flex-flow: wrap;
+    justify-content: center;
+  }
+  .footer .footer-inner .footer-menu ul li a {
+    font-size: 10px;
+  }
+  .footer-logo {
+    margin: 0px 0px 8px 0px;
+  }
+  .footer-logo img {
+    max-width: 200px;
+  }
+  .footer .footer-inner .footer-social ul li img {
+    max-width: 20px;
+  }
+  .footer .footer-info ul {
+    flex-flow: wrap;
+    justify-content: center;
+  }
+  .footer .footer-bottom,
+  .footer .footer-bottom .footer-copyright {
+    flex-direction: column;
+    gap: 5px;
+  }
+  .footer .footer-bottom .footer-copyright p {
+    order: 1;
+  }
+  .celebrate-box {
+    align-items: center;
+    justify-content: center;
+  }
+  .bachelorette-title {
+    top: 10px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .manName h2 {
+    font-size: 34px;
+  }
+  .manGallery {
+    margin-bottom: 30px;
+  }
+  .manAbout {
+    margin: 22px 0;
+  }
+  .manAbout p {
+    margin-right: 0px;
+  }
+  .manBioDetails,
+  .manDetails .peopleListsParents {
+    background-size: cover;
+  }
+  .peopleLists ul {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .hero-inner center .slidershow,
+  .bannerSection center img.bannerImg {
+    top: 9px;
+    padding: 0 9px 0 20px;
+  }
+  .testimonial-video{
+    float:none;
+    padding:0px 0px 20px 0px;
+  }
+  .the-man-list ul li{
+    width:33.33%;
+  }
+  .about-show-img img{
+    max-width: 220px;
+  }
+  .location-content{
+    padding: 15px;
+  }
+  .press-videos-list,
+  .photo-inner-list{
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .photo-inner-list .grid-item img{
+    max-width: 100%;
+  }
+  .videos-inner-list{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .malestrippers-img{
+    float:none;
+  }
+
+}
+
+@media (max-width: 575px) {
+  .bannerSection .banner-menu ul li:last-child,
+  .hero-inner .slidershow .banner-menu ul li:last-child{
+    max-width: 150px;
+  }
+  .poster-img{
+    margin: 0px auto;
+    text-align: center;
+  }
+
+  .dropdown-theshow .megamenu-inner {
+    flex-direction: column;
+    padding: 5px 0px;
+  }
+  .dropdown-tickets .dropdown-toggle,
+  .dropdown-theshow .dropdown-toggle {
+    right: 5px;
+  }
+  .megamenu-inner .theshow-list {
+    width: 100%;
+    max-width: 100%;
+  }
+  .dropdown-theshow .megamenu-inner .location-list ul {
+    max-width: 124px;
+  }
+
+  .twitter-widget,
+  .photo-gallery,
+  .fare-calendar,
+  .bachelorette-men {
+    margin: 10px auto;
+    max-width: 100%;
+    width: 100%;
+  }
+  .location-right .sidebar-widget .youtube-box,
+  .location-right .sidebar-widget .photo-gallery,
+  .location-right .sidebar-widget .twitter-icons,
+  .location-right .sidebar-widget .twitter-widget,
+  .location-right .sidebar-widget .fare-calendar,
+  .location-right .sidebar-widget .bachelorette-men {
+    max-width: 100%;
+    margin: 0px auto 25px;
+  }
+  .page-breadcrumb ul {
+    gap: 20px;
+    flex-flow: wrap;
+  }
+  .page-breadcrumb ul li::before {
+    right: -14px;
+  }
+  .peopleLists ul {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .manGallery .grid-item img {
+    max-width: 100px;
+  }
+  .manBioDetails .bigImg {
+    margin-top: 20px;
+  }
+  .hero-inner center .slidershow,
+  .bannerSection center img.bannerImg {
+    top: 6px;
+    padding: 0 6px 0 12px;
+  }
+  .page-breadcrumb ul li span,
+  .page-breadcrumb ul li a{
+	font-size: 12px;
+  }
+  
+  .the-man-list ul li{
+    width:50%;
+  }
+  .about-show-img{
+    float: none;
+    padding: 0px 0px 30px 0px;
+  }
+  .about-show-img img{
+    max-width: 100%;
+  }
+  .videos-inner-list{
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .photo-inner-list{
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .press-videos-list{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .press-list .press-article{
+    flex-wrap: wrap;
+    padding: 0px 0px 25px 0px;
+  }
+  .press-list .press-article .article-info{
+    text-align: left;
+  }
+  .press-list .press-article .article-img{
+    margin: 0px;
+    text-align: left;
+  }
+
+
+  
+}
+
+@media (max-width: 480px) {
+  .peopleLists ul {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
